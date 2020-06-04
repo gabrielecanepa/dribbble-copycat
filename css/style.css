@@ -1,8 +1,18 @@
-@import url("components/container.css");
-@import url("components/card.css");
 @import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
 
 body {
-  background: lightgray;
+  background: #faf6e7;
   font-family: sans-serif;
+}
+
+/* Utility classes */
+.list-inline {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
 }

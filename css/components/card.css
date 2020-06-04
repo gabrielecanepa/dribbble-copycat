@@ -1,11 +1,43 @@
 .card {
   width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.card-header img {
   width: 50%;
 }
 
 .card-header {
   display: flex;
+}
+
+.card-header > div {
+  flex-grow: 1;
+}
+
+.card-header .fa-star {
+  color: gold;
+}
+
+.card-video {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer img {
+  width: 30%;
+  object-fit: cover;
+  border: 1px solid #d26619;
+  border-radius: 4px;
 }
