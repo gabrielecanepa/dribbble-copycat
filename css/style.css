@@ -1,3 +1,7 @@
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/button.css");
+
 body {
   background: lightgray;
   font-family: sans-serif;
